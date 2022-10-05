@@ -16,6 +16,7 @@
           {{ contact.name }}
         </dd>
       </div>
+
       <div class="mb-8 md:mb-6">
         <dt
           class="text-sm md:text-base font-medium text-gray-500 sm:w-40 sm:flex-shrink-0"

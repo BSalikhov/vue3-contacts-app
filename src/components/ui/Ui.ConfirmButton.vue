@@ -5,6 +5,7 @@
       class="bg-white shadow-md p-4 absolute -top-28 left-1/2 -translate-x-1/2"
     >
       <h3 class="text-lg">{{ title }}</h3>
+
       <div class="flex space-x-2">
         <UiButton @click="showModal = false" class="bg-indigo-500">No</UiButton>
         <UiButton @click="confirm" class="border-indigo-500 text-indigo-500"

@@ -86,21 +86,6 @@ export default {
         category: "",
       },
       schema,
-
-      options: [
-        {
-          value: 0,
-          label: "bir",
-        },
-        {
-          value: 1,
-          label: "ikki",
-        },
-        {
-          value: 2,
-          label: "uch",
-        },
-      ],
     };
   },
 
