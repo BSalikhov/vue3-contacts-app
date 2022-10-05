@@ -13,12 +13,18 @@
 
     <UiSearchBar v-model="search" />
 
-    <ContactCard
-      v-for="contact in filteredContacts"
-      :key="contact.id"
-      :contact="contact"
-    >
-    </ContactCard>
+    <div v-if="!contacts.length" class="w-full mt-6 text-center text-gray-500">
+      No contacts, please add some:)
+    </div>
+
+    <div v-else>
+      <ContactCard
+        v-for="contact in filteredContacts"
+        :key="contact.id"
+        :contact="contact"
+      >
+      </ContactCard>
+    </div>
   </div>
 </template>
 
